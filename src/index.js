@@ -38,10 +38,9 @@ function renderPosts(posts) {
     li.className = 'post-item';
     li.dataset.id = post.id;
     
-    // Display first 50 characters of content
     li.innerHTML = `
       <strong>${post.title}</strong>
-      <p>${post.content.substring(0, 50)}...</p>  
+      <p>${post.content.substring(0, 50)}...</p>
     `;
     
     li.addEventListener('click', handlePostClick);
