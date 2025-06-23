@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post Page</title>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,
+wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
+1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- icons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ 
+  <link rel="stylesheet" href="Css/style.css">
+  <script src="src/index.js" defer></script>
+</head>
+<body>
+    <h1> Mastering Your Tech Blog</h1>
+  <div class="container">
+    <!-- Left Sidebar -->
+    <div id="post-list">
+      <h2>Blog Posts List</h2>
+      <p>Click on a post to view details</p>
+      <ul id="posts-ul"></ul>
+      
+      <!-- Show More Dropdown -->
+      <div class="dropdown">
+        <button class="dropbtn">Show More ▼</button>
+        <div class="dropdown-content">
+          <a href="#" id="show-all">Show All Posts</a>
+          <a href="#" id="show-latest">Show Less</a>
+        </div>
+      </div>
+
+      <!-- Create New Post Button -->
+       
+      <button id="new-post-btn"> 
+        <i class='bx bx-grid-circle-plus'></i> 
+        Create New Post
+      </button>
+       
+      <!-- Hidden Form -->
+      <form id="new-post-form">
+        <input type="text" id="title" placeholder="Post Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="url" id="image-url" placeholder="Image URL" required>
+        <textarea id="content" placeholder="Post Content" required></textarea>
+        <button type="submit">Submit Post</button>
+      </form>
+    </div>
+
+    <!-- Right Content Area -->
+    <div id="post-detail"></div>
+  </div>
+
+ 
+</body>
+</html>
