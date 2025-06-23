@@ -85,7 +85,7 @@ Each post in [`db.json`](db.json) looks like:
 
 ## Screenshots
 
-![Blog Post Manager Screenshot](https://via.placeholder.com/800x400?text=Blog+Post+Manager+Screenshot)
+![Blog Post Manager Screenshot](./images/screenshot.png)
 
 ## License
 
