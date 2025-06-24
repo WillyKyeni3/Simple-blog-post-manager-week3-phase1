@@ -206,3 +206,105 @@ h1 {
   border-left: 4px solid #4CAF50;
 }
 
+/* Edit Form Styles */
+.edit-form {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 24px 20px 18px 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.edit-form h3 {
+  color: #4CAF50;
+  margin-bottom: 18px;
+  font-family: "poppins", sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* edit & DElete Buttons */
+.myButton {
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.myDeleteButton {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fff;
+  transition: border 0.2s;
+}
+
+.edit-form input:focus,
+.edit-form textarea:focus {
+  border: 1.5px solid #4CAF50;
+  outline: none;
+}
+
+.edit-form textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.edit-form .myButton,
+.edit-form .myDeleteButton {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.edit-form .myButton.edit-btn {
+  background: #4CAF50;
+  color: #fff;
+}
+
+.edit-form .myButton.edit-btn:hover {
+  background: #388e3c;
+}
+
+.edit-form .myDeleteButton.delete-btn {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.edit-form .myDeleteButton.delete-btn:hover {
+  background: #c0392b;
+}
+
+.edit-form .myButton i,
+.edit-form .myDeleteButton i {
+  font-size: 1.2em;
+}
+

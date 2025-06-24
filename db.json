@@ -1,47 +1,46 @@
 {
   "posts": [
     {
-      "id": "6b5a",
+      "id": "1",
       "title": "CRUD",
       "author": "Willy Musyoka",
       "imageUrl": "https://www.shutterstock.com/image-illustration/crud-acronym-create-read-update-600nw-2491959959.jpg",
       "content": "CRUD is an acronym that stands for Create, Read, Update, and Delete. These four operations are the fundamental functions for interacting with and managing data in almost any persistent storage system, such as databases, APIs, or even file systems.\n\nC - Create: The ability to add new data records to a system. (e.g., adding a new user to a database, creating a new blog post).\nR - Read (or Retrieve): The ability to access, view, or query existing data records from a system. (e.g., fetching a list of all users, displaying a specific blog post).\nU - Update: The ability to modify existing data records in a system. (e.g., changing a user's email address, editing a blog post's content).\nD - Delete: The ability to remove existing data records from a system. (e.g., deleting a user account, removing a blog post)."
     },
     {
-      "id": "1",
+      "id": "2",
       "title": "Learning How CSS Styling Works",
-      "author": "John Doe",
+      "author": "John Kamau",
       "imageUrl": "https://cdn.prod.website-files.com/60f8ffe4d3ddfa64654d6667/659506937db76dfae1f359d5_complete%20webpage%20interface.webp",
       "content": "CSS is a rule-based language — you define rules by specifying groups of styles that should be applied to particular element or groups of elements on your web page. In the above example, the CSS rule opens with a selector. This selects the HTML elements that we are going to style."
     },
     {
-      "id": "2",
+      "id": "3",
       "title": "Mastering JavaScript Promises",
       "author": "Samantha Lee",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIE7kozOZaAsVd1zVWVs8MXegjG2XrqA67zQ&s",
       "content": "JavaScript promises can be tricky to master, but they're essential for modern web development. This post covers everything from basic syntax to advanced error handling techniques."
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "CSS Grid vs Flexbox",
       "author": "Mike Omolo",
       "imageUrl": "https://picsum.photos/id/1016/600/300",
       "content": "Understanding when to use CSS Grid vs Flexbox can be confusing. This post compares both layout systems with practical examples and use cases."
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "Building REST APIs with Node.js",
       "author": "Jojo Mwangi",
       "imageUrl": "https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/10227551/og_image/optimized/secure-rest-api-in-nodejs-18f43b3033c239da5d2525cfd9fdc98f.png",
       "content": "Node.js is a powerful platform for building scalable APIs. This tutorial walks through creating a complete REST API with Express and MongoDB."
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "Responsive Design Principles",
       "author": "Esther Wambui",
       "imageUrl": "https://happyaddons.com/wp-content/uploads/2022/09/Web-Design-Principles_Lat-Update-1024x640.png",
       "content": "Responsive design is crucial for modern websites. This post covers the fundamental principles and techniques for creating layouts that work across all devices."
     }
-    
   ]
 }
